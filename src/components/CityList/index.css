@@ -1,0 +1,43 @@
+.city-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-button{
+    background-color: #FF7043;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.city-name {
+    font-family: Roboto;
+    color:#212121;
+    font-size: 38px;
+}
+ 
+.city-list{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.delete{
+    background-color: red;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0px 0px 8px 0px; 
+}
